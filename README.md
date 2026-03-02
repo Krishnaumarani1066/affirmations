@@ -1,38 +1,93 @@
 📱 Affirmations App (Jetpack Compose)
-This project is part of my Android Development Internship. It is a simple, beautiful app designed to show a list of daily affirmations with calming images to improve mental well-being.
 
-🚀 What this App Does
-Displays a scrolling list of motivational quotes.
+A beautifully designed Android application built using Jetpack Compose that displays daily motivational affirmations paired with calming visuals to enhance mental well-being.
 
-Each quote is paired with a specific image from the resource folder.
+✨ App Preview
+<img width="1307" height="711" alt="image" src="https://github.com/user-attachments/assets/11f475d3-f4aa-47d3-bad3-822c092c52dd" />
+<img width="1916" height="1078" alt="image" src="https://github.com/user-attachments/assets/d5e3b26d-642d-44a9-9743-3bf512101f11" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ac225524-fa9f-45e6-91c5-46c0eb095c8b" />
+<img width="796" height="1079" alt="image" src="https://github.com/user-attachments/assets/954d1788-9ab3-451c-941a-e1d501ff7da8" />
 
-Uses Material 3 Design for a modern and clean look.
+🚀 Features
 
-Built entirely using Jetpack Compose, Android’s modern UI toolkit.
+📜 Displays a scrollable list of daily motivational affirmations
 
-🛠️ Key Technical Skills Demonstrated
-Data Modeling: Created a data class to handle the text and image resource IDs.
+🖼️ Each quote is paired with a calming image from local resources
 
-Lists in Compose: Used LazyColumn to display a large amount of data efficiently without slowing down the phone.
+🎨 Built using Material 3 Design principles
 
-Resource Management: Managed multiple images and string resources in the res folder.
+⚡ Efficient rendering using LazyColumn
 
-Debugging: Successfully resolved "Resource linking failed" errors by fixing the connections between mipmap and drawable folders.
+📱 Fully built using Jetpack Compose (Modern Android UI Toolkit)
 
-🧪 Challenges I Overcame
-While building this, I faced a common "Resource linking failed" error because my app couldn't find the launcher background. I fixed this by:
+🛠️ Technical Skills Demonstrated
+🔹 1. Data Modeling
 
-Moving my vector files to the correct res/drawable folder.
+Created a Kotlin data class to manage:
 
-Updating the ic_launcher.xml to point to the correct source.
+Affirmation text (String resource ID)
 
-Cleaning and rebuilding the project to refresh the links.
+Image reference (Drawable resource ID)
 
-📈 About the Developer
+🔹 2. Efficient List Rendering
+
+Used LazyColumn to:
+
+Efficiently render large datasets
+
+Improve scrolling performance
+
+Reduce memory usage
+
+🔹 3. Resource Management
+
+Managed multiple images in res/drawable
+
+Used strings.xml for text resources
+
+Proper linking between mipmap and drawable
+
+🔹 4. Debugging & Problem Solving
+
+Resolved "Resource linking failed" errors by:
+
+Moving vector assets to the correct res/drawable folder
+
+Updating ic_launcher.xml correctly
+
+Cleaning and rebuilding the project
+
+🧪 Challenges Overcome
+
+One major issue was:
+
+❌ Resource linking failed – launcher background not found
+
+✅ Solution:
+
+Verified folder structure
+
+Corrected XML references
+
+Synced and rebuilt Gradle project
+
+Ensured consistent naming conventions
+
+This strengthened my understanding of Android resource management and build processes.
+
+📚 Tech Stack
+
+Language: Kotlin
+
+UI Toolkit: Jetpack Compose
+
+Design System: Material 3
+
+IDE: Android Studio
+
+👨‍💻 About the Developer
+
 Name: Krishna Lagamappa Umarani
-
 Role: Software Engineering Student
-
-Recent Milestone: Registered and Applied for the TCS NQT (Feb 19, 2026).
-
-GitHub Portfolio: View all 14 Repositories
+Recent Milestone: Registered & Applied for TCS NQT (Feb 19, 2026)
+GitHub Portfolio: 14+ Repositories showcasing Android & UI projects
