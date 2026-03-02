@@ -88,6 +88,10 @@ IDE: Android Studio
 👨‍💻 About the Developer
 
 Name: Krishna Lagamappa Umarani
+
 Role: Software Engineering Student
+
 Recent Milestone: Registered & Applied for TCS NQT (Feb 19, 2026)
+
 GitHub Portfolio: 14+ Repositories showcasing Android & UI projects
+
